@@ -95,3 +95,23 @@ a {
 }
 
 /* End Header */
+
+/* Start Footer */
+footer {
+  background-color: var(--color-28384b);
+}
+
+/* footer:nth-child(2) {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+} */
+
+footer:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer .input-group-text {
+  background-color: var(--color-28384b);
+  color: whitesmoke;
+  padding: 8px 17px;
+}
+/* End Footer */
