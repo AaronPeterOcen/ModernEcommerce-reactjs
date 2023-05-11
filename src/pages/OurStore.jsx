@@ -5,7 +5,7 @@ import Rater from "react-rater";
 import ProductCard from "../components/ProductCard";
 
 const OurStore = () => {
-  const [grid, setGrid] = useState(0);
+  const [grid, setGrid] = useState(4);
   // alert(grid);
   return (
     <>

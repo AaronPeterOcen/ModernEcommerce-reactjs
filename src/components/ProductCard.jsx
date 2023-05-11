@@ -37,6 +37,10 @@ const ProductCard = (props) => {
               Kids headphones 10 pack multi colored for students
             </h5>
             <Rater total={5} rating={3} size={20} />
+            <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
+              esse repellendus exercitationem necessitatibus, optio aliquam.
+            </p>
             <p className="price">$100</p>
           </div>
           <div className="action-bar position-absolute">
@@ -81,6 +85,10 @@ const ProductCard = (props) => {
               Kids headphones 10 pack multi colored for students
             </h5>
             <Rater total={5} rating={3} size={20} />
+            <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
+              esse repellendus exercitationem necessitatibus, optio aliquam.
+            </p>
             <p className="price">$100</p>
           </div>
           <div className="action-bar position-absolute">
